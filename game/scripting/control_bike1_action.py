@@ -51,4 +51,4 @@ class ControlBike1Action(Action):
 
                 
         bike = cast.get_first_actor('bike_1')
-        bike.turn_head(self._direction_1)
+        bike.turn_head(self._direction)
