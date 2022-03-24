@@ -33,13 +33,14 @@ class Bike(Actor):
             previous = self._segments[i - 1]
             velocity = previous.get_velocity()
             trailing.set_velocity(velocity)
+        self.grow_tail(1)
 
     # TODO change to get_bike
     def get_head(self):
         return self._segments[0]
 
     # TODO change to grow_trail
-    def grow_tail(self):
+    def grow_tail(self, number_of_segments):
         for i in range(self._number_of_segments):
             tail = self._segments[-1]
             velocity = tail.get_velocity()
