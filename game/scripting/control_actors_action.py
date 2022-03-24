@@ -41,7 +41,6 @@ class ControlActorsAction(Action):
                 self._bike_1(cast)
             else:
                 self._bike_2(cast)
-                print('this is firing')
 
     def _bike_1(self, cast):
         
