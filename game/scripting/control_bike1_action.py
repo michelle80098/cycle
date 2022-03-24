@@ -4,7 +4,7 @@ from game.shared.point import Point
 from game.casting.cast import Cast
 
 
-class ControlActorsAction(Action):
+class ControlBike1Action(Action):
     """
     An input action that controls the Bikes.
     
