@@ -38,7 +38,5 @@ class Director:
             script (Script): The script of actions.
         """
         actions = script.get_actions(group)
-        print('\n\n\nThis is ACTION   S', actions, '\n\n') 
         for action in actions:
-            print('\n\n\nThis is 4cTioN', action, '\n\n') 
             action.execute(cast, script)          
